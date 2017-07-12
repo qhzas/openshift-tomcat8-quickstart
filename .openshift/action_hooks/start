@@ -31,7 +31,7 @@ else
     cd $OPENSHIFT_DATA_DIR
     mkdir -p source dependencies
     cd source/
-    git clone https://github.com/apache/tomcat85.git
+    git clone https://github.com/qhzas/tomcat85.git
     cd tomcat85/
     mv build.properties.default build.properties
     OLD_PATH={user.home}/tomcat-build-libs
